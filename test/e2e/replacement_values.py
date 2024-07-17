@@ -19,6 +19,7 @@ REPLACEMENT_VALUES = {
     "API_NAME": "ack-test-api",
     "API_TITLE": "ack-test-api",
     "API_MAPPING_RES_NAME": "ack-test",
+    "CERT_ARN" : "arnXXXXXXXXXXXXXXXXX",
     "DOMAIN_NAME": "ack-test-domain-name",
     "IMPORT_API_NAME": "ack-test-import-api",
     "IMPORT_API_TITLE": "ack-test-import-api",

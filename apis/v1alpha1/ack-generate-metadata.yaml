@@ -1,4 +1,5 @@
 ack_generate_info:
+<<<<<<< Updated upstream
   build_date: "2024-07-17T17:07:30Z"
   build_hash: 14cef51778d471698018b6c38b604181a6948248
   go_version: go1.22.5
@@ -8,6 +9,17 @@ api_version: v1alpha1
 aws_sdk_go_version: v1.49.0
 generator_config_info:
   file_checksum: d6c23d0672e55027bcedcded422e829c2e8ac405
+=======
+  build_date: "2024-07-17T17:13:45Z"
+  build_hash: 14cef51778d471698018b6c38b604181a6948248
+  go_version: go1.22.5
+  version: v0.34.0
+api_directory_checksum: d0dd8192da983d63234b268a8c5373d4a6076318
+api_version: v1alpha1
+aws_sdk_go_version: v1.49.0
+generator_config_info:
+  file_checksum: 4164f3909333c4159806344361e1ce4e81af9c76
+>>>>>>> Stashed changes
   original_file_name: generator.yaml
 last_modification:
   reason: API generation

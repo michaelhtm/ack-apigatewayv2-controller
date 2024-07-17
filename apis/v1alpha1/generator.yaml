@@ -1,7 +1,7 @@
 ignore:
   resource_names:
-    # DomainName is ignored due to lack of Public DNS setup in e2e testing
-    - DomainName
+    # # DomainName is ignored due to lack of Public DNS setup in e2e testing
+    # - DomainName
     # ApiMapping is ignored due to lack of Public DNS setup in e2e testing
     # - ApiMapping
     # # Model is not supported for HTTP APIs. Remove when adding support for WebSocket APIs
@@ -100,15 +100,15 @@ resources:
         - path: Status.VPCLinkStatus
           in:
             - AVAILABLE
-  # DomainName:
-  #   exceptions:
-  #     terminal_codes:
-  #       - "BadRequestException"
-  #   fields:
-  #     DomainName:
-  #       is_primary_key: true
-  #   tags:
-  #     ignore: true
+  DomainName:
+    exceptions:
+      terminal_codes:
+        - BadRequestException
+    fields:
+      DomainName:
+        is_primary_key: true
+    tags:
+      ignore: true
   ApiMapping:
     exceptions:
       terminal_codes:

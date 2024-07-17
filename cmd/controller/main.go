@@ -43,6 +43,7 @@ import (
 	_ "github.com/aws-controllers-k8s/apigatewayv2-controller/pkg/resource/api_mapping"
 	_ "github.com/aws-controllers-k8s/apigatewayv2-controller/pkg/resource/authorizer"
 	_ "github.com/aws-controllers-k8s/apigatewayv2-controller/pkg/resource/deployment"
+	_ "github.com/aws-controllers-k8s/apigatewayv2-controller/pkg/resource/domain_name"
 	_ "github.com/aws-controllers-k8s/apigatewayv2-controller/pkg/resource/integration"
 	_ "github.com/aws-controllers-k8s/apigatewayv2-controller/pkg/resource/route"
 	_ "github.com/aws-controllers-k8s/apigatewayv2-controller/pkg/resource/stage"
